@@ -65,6 +65,34 @@ body {
     height: 40vh;
     background-color: white;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.164);
+    padding-left: 40px;
+}
+
+#formHeader {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.userForm {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 30vw;
+
+}
+
+.userForm label {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.userForm input {
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+
 }
 
 .footerPanel {
