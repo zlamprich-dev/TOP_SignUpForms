@@ -9,6 +9,11 @@ body {
 }
 
 
+input:user-invalid {
+    border: red solid 1px;
+}
+
+
 .content {
     height: 100vh;
     display: flex;
