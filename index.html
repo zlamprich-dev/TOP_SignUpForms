@@ -32,25 +32,27 @@
                         <form class="userForm" action="/action_page.php">
                             <div class="formPanelOne">
                                 <label for="fname">First name:</label><br>
-                                <input type="text" id="fname" name="fname"><br>
+                                <input type="text" id="fname" name="fname" required><br>
                                 <label for="lname">Last name:</label><br>
-                                <input type="text" id="lname" name="lname"><br>
+                                <input type="text" id="lname" name="lname" required><br>
                                 <label for="email">Email:</label><br>
-                                <input type="text" id="email" name="email"><br>
+                                <input type="text" id="email" name="email" required><br>
                             </div>
                             <div class="formPanelTwo">
                                 <label for="phoneNumber">Phone Number:</label><br>
-                                <input type="text" id="phoneNumber" name="phoneNumber"><br>
+                                <input type="text" id="phoneNumber" name="phoneNumber" required><br>
                                 <label for="password">Password:</label><br>
-                                <input type="text" id="password" name="password"><br>
+                                <input type="text" id="password" name="password" required><br>
                                 <label for="passConfirm">Confirm Password:</label><br>
-                                <input type="text" id="passConfirm" name="passConfirm"><br>
+                                <input type="text" id="passConfirm" name="passConfirm" required><br>
                             </div>
                     </div>
                     </form>
                 </div>
-                <input type="submit" id="submitBtn" value="Submit">
-                <div class="footerPanel"></div>
+                <button type="button" id="submitBtn">Create Account</button>
+                <div class="footerPanel">
+                    <p>Already have an account? <a href="login">Log in</a></p>
+                </div>
             </div>
         </div>
 
